@@ -26,6 +26,9 @@ public class BattleShip {
         for(int r=0; r < campo.length; r++){
             for(int c=0; c < campo.length; c++){
                 System.out.print(campo[r][c]);
+
+                if(c < campo[r].length - 1)
+                    System.out.print(" ");
             }
             System.out.println();
         }
